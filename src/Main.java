@@ -1,5 +1,6 @@
 import CodeStudio.Permutation;
 import CodeStudio.Trade;
+import LeetCode.WeeklyContest282.KDistantIndices;
 import Recursion.RecursionMain;
 import Tree.TreeMain;
 
@@ -16,8 +17,12 @@ public class Main {
 //        System.out.println(remove("CABABD"));
 //        Trade trade = new Trade();
 //        System.out.println(trade.tradeSolution(6l));
-        Permutation permutation = new Permutation();
-        permutation.costToProcess(5, new int[]{1, 3, 5, 4, 2});
+//        Permutation permutation = new Permutation();
+//        permutation.costToProcess(5, new int[]{1, 3, 5, 4, 2});
+
+        KDistantIndices kDistantIndices = new KDistantIndices();
+        int[] arr = new int[]{2,2,2,2,2};
+        kDistantIndices.distantIndices(arr,2,2);
     }
 
     public static String remove(String str)
